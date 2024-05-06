@@ -1,8 +1,19 @@
+import Features from "./sections/Features";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import Nav from "./sections/Nav";
+import Partners from "./sections/Partners";
+import Reviews from "./sections/Reviews";
+
 function App() {
   return (
     <>
-      <h1 className="bg-black text-3xl text-red-300">hey</h1>
-      <h2 className="dhsdl">dhsl</h2>
+      <Nav />
+      <Hero />
+      <Features />
+      <Partners />
+      <Reviews />
+      <Footer />
     </>
   );
 }
