@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+/* CSS is cascading */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "inter";
+}
+
+@tailwind utilities;
